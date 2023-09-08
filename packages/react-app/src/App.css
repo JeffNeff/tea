@@ -1,0 +1,18 @@
+:root {
+  font-family: 'Noto Sans', sans-serif;
+  color: #3D3D3D;
+  background-color: #FAFAFA;
+                                                
+}
+
+.sell-currency-select input:focus {
+  border: 1px solid #7DC4A6;
+}
+
+.sell-currency-select > .mantine-Select-item:hover {
+  background-color: #7DC4A6;
+}
+
+.mantine-Stepper-verticalSeparatorActive {
+  border-left: 0.125rem solid #44AF7F
+}

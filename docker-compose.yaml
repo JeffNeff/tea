@@ -1,0 +1,10 @@
+services:
+  tea:
+    image: tea
+    build:
+      context: packages/backend
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./data:/data
